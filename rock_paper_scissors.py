@@ -40,7 +40,7 @@ else:
 comprandselect = random.randint(0, 2)
 if comprandselect == 0:
     print("Computer selected Rock \n" + allchoices[0])
-if comprandselect == 1:
+elif comprandselect == 1:
     print("Computer selected Paper \n" + allchoices[1])
 else:
     print("Computer selected Scissors \n" +allchoices[2])
